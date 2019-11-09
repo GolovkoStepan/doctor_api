@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  doctor: one
+  user: one
+  start_datetime: 2019-11-09 23:48:08
+  end_datetime: 2019-11-09 23:48:08
+
+two:
+  doctor: two
+  user: two
+  start_datetime: 2019-11-09 23:48:08
+  end_datetime: 2019-11-09 23:48:08
