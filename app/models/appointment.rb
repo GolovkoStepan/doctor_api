@@ -14,4 +14,9 @@
 class Appointment < ApplicationRecord
   belongs_to :doctor
   belongs_to :user, optional: true
+
+  def free?
+    user.nil?
+  end
+
 end
