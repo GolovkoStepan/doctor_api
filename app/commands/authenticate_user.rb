@@ -12,7 +12,7 @@ class AuthenticateUser
 
   private
 
-  attr_accessor :email, :password
+  attr_accessor :phone, :password
 
   def user
     user = User.find_by_phone(phone)
